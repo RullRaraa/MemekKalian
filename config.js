@@ -17,10 +17,10 @@ global.APIKeys = {
 }
 
 // Other
-global.owner = ['6285162634171','6285748894171']
-global.web = 'https://youtube.com/channel/UC2hMC3YSXSrDDhqOECXZkUg'
+global.owner = ['6285859047172','6285859047172']
+global.web ='https://nekopoi.care'
 global.bot = 'NahBotz-MD²'
-global.premium = ['6285748894171']
+global.premium = ['6285859047172']
 global.packname = 'NakataArdnt'
 global.author = 'Nakata'
 global.sessionName = 'nahh'
