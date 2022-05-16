@@ -559,11 +559,11 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             }
             break
 	    case 'sewabot': case 'sewa': case 'buypremium': case 'donate': {
-                hisoka.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/a7dcb02b888ae8685845a.png' }, caption: `*Hai Kak ${m.pushName}*\n\n Bot Rental Prices\n⭔ 13k Per Group via E-Walet 1 Month\n⭔ 18k via pulsa 1 Month\n\n Premium Price Bot\n⭔ 8k per User 1 bulan\n\nPayment can be via Dana/Gopay/pulsa\n\nFor more details, you can chat with the owner\nhttps://wa.me/6285748893171 (Owner)\n\nDonate For Me : \n\n⭔ Dana : 085748894171\n⭔ Saweria : https://saweria.co/Nakata` }, { quoted: m })
+                hisoka.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/a7dcb02b888ae8685845a.png' }, caption: `*Hai Kak ${m.pushName}*\n\n Bot Rental Prices\n⭔ 13k Per Group via E-Walet 1 Month\n⭔ 18k via pulsa 1 Month\n\n Premium Price Bot\n⭔ 8k per User 1 bulan\n\nPayment can be via Dana/Gopay/pulsa\n\nFor more details, you can chat with the owner\nhttps://wa.me/6285859047172 (Owner)\n\nDonate For Me : \n\n⭔ Dana : -\n⭔ Saweria : https://saweria.co/Itsrullbot` }, { quoted: m })
             }
             break
             case 'sc': {
-                reply('Script : https://github.com/Nakataaard/MD2\n\n Dont Forget Give Star\n\nDonate : 6285748894171 (Dana)\nSaweria : https://saweria.co/Nakata\n\n Dont Forget Donate')
+                reply('Script : 🤨📸')
             }
             break
             case 'chat': {
@@ -1232,12 +1232,12 @@ case 'bcimg': case 'bcvidio': case 'bcaudio': {
 		    let btn = [{
                                 urlButton: {
                                     displayText: 'Source Code',
-                                    url: 'https://github.com/Nakataaard/MD2'
+                                    url: 'https://github.com'
                                 }
                             }, {
                                 callButton: {
                                     displayText: 'Number Phone Owner',
-                                    phoneNumber: '+62 857-4889-4171'
+                                    phoneNumber: '6285859047172'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -1581,7 +1581,7 @@ message = await prepareWAMessageMedia({ image : { url: anu.thumbnail } }, { uplo
             break
 	    case 'ytmp3': case 'ytaudio': {
                 let { yta } = require('./lib/y2mate')
-                if (!text) throw `Example : ${prefix + command} https://youtube.com/watch?v=PtFMh6Tccag%27 128kbps`
+                if (!text) throw `Example : ${prefix + command} https://youtube.com/watch?v=PtFMh4Tccag%27 128kbps`
                 let quality = args[1] ? args[1] : '128kbps'
                 let media = await yta(text, quality)
                 if (media.filesize >= 100000) return reply('File Melebihi Batas '+util.format(media))
@@ -1591,7 +1591,7 @@ message = await prepareWAMessageMedia({ image : { url: anu.thumbnail } }, { uplo
             break
             case 'ytmp4': case 'ytvideo': {
                 let { ytv } = require('./lib/y2mate')
-                if (!text) throw `Example : ${prefix + command} https://youtube.com/watch?v=PtFMh6Tccag%27 360p`
+                if (!text) throw `Example : ${prefix + command} https://youtube.com/watch?v=PtBMh6Tccag%27 360p`
                 let quality = args[1] ? args[1] : '360p'
                 let media = await ytv(text, quality)
                 if (media.filesize >= 100000) return reply('File Melebihi Batas '+util.format(media))
@@ -2990,7 +2990,7 @@ User Total : *${Object.keys(global.db.data.users).length}*
                 let btn = [{
                                 urlButton: {
                                     displayText: 'S C R I P T',
-                                    url: 'https://github.com/Nakataaard/MD2'
+                                    url: 'https://github.com'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3506,13 +3506,7 @@ ${prefix}autoketik On/Off
 break
 case 'tqtt': 
 replay(`Thanks To 
-DikaArdnt.
-Fatih Arridho.
-Deff
-Juna Bot
-NakataArdnt
-KurrXd
-Dan All Friend Yang Membantu Merakit Sc ini !!!`)
+Semuanya !!!`)
 break
             default:
                 if (budy.startsWith('=>')) {
